@@ -3,3 +3,9 @@
     - ## What is Shellcode Process Injection?
         - Process injection is a sophisticated method used to execute code within the address space of another process, allowing attackers to hide their activities and evade security measures.
         - Write Up: [Medium](https://medium.com/@satwikhatulkar/process-injection-unveiled-methods-and-mitigation-part-1-820d1b9415f6)
+    - ## Why Do We Need Payload Encryption?
+        - Encrypted shellcode is employed to evade static detection. Static detection mechanisms search for signatures within the code to identify potential threats.
+        - Write Up: [Medium](https://medium.com/@satwikhatulkar/payload-encryption-methods-and-mitigation-malware-development-part-2-60a437567d5e)
+    - ## What is process hollowing?
+        - Process hollowing is commonly performed by creating a process in a suspended state then unmapping/hollowing its memory, which can then be replaced with malicious code.
+        - Write Up: [Medium](https://medium.com/@satwikhatulkar/process-hollowing-methods-and-mitigation-malware-development-part-3-51249dea08dd)
