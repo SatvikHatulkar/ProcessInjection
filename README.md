@@ -9,3 +9,9 @@
     - ## What is process hollowing?
         - Process hollowing is commonly performed by creating a process in a suspended state then unmapping/hollowing its memory, which can then be replaced with malicious code.
         - Write Up: [Medium](https://medium.com/@satwikhatulkar/process-hollowing-methods-and-mitigation-malware-development-part-3-51249dea08dd)
+    - ## What is Thread Hijacking?
+        - Thread Hijacking is a method of executing arbitrary code in the address space of a separate live process. It involves taking control of an existing thread within a process rather than creating a new thread.
+        - Write Up: [Medium](https://medium.com/@satwikhatulkar/thread-hijacking-methods-and-mitigation-malware-development-part-4-8f539f9c1a2e)
+    - ## What is APC Queue Injection?
+        - APC injection is commonly performed by attaching malicious code to the APC Queue of a process’s thread. Queued APC functions are executed when the thread enters an alterable state.
+        - Write Up: [Medium](https://medium.com/@satwikhatulkar/apc-queue-injection-methods-and-mitigation-malware-development-part-5-76ce9c667f7e)
