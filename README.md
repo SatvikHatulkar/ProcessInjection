@@ -15,3 +15,6 @@
     - ## What is APC Queue Injection?
         - APC injection is commonly performed by attaching malicious code to the APC Queue of a process’s thread. Queued APC functions are executed when the thread enters an alterable state.
         - Write Up: [Medium](https://medium.com/@satvikhatulkar/apc-queue-injection-methods-and-mitigation-malware-development-part-5-76ce9c667f7e)
+    - ## What is Memory-Mapped Section Injection?
+        - Memory-Mapped Section Injection is an advanced technique used in malware development to inject malicious code into a target process’s address space.
+        - Write Up: [Medium](https://medium.com/@satvikhatulkar/memory-mapped-section-injection-methods-and-mitigation-malware-development-part-6-4486b1d2c6cc)
